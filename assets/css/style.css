@@ -31,6 +31,10 @@ h3 {
 	text-transform: uppercase;
 }
 
+.main__padding {
+	padding: 35px 20px;
+}
+
 /* HEADER */
 
 header {
@@ -68,7 +72,7 @@ nav button {
 	font-weight: bold;
 	color: white;
 	text-transform: uppercase;
-	padding: 10px 25px;
+	padding: 12px 25px;
 	border-radius: 5px;
 	border: none;
 }
@@ -81,7 +85,6 @@ main {
 /* ELEMENTI NEL MAIN - ARTICLE */
 
 article {
-	padding: 30px 20px;
 	text-align: center;
 }
 
@@ -128,17 +131,15 @@ section h4 {
 
 /* ASIDE */
 
-aside {
-	padding: 30px 20px;
-}
-
 .card {
-	margin: 20px 0;
 	border: 1px #dee1e3 solid;
 	border-radius: 5px;
 	overflow: hidden;
 }
 
+.card__padding-bottom {
+	margin-bottom: 30px;
+}
 .card img {
 	width: 100%;
 }
@@ -154,11 +155,13 @@ footer {
 	padding: 30px 20px;
 	background-color: #25a2c3;
 	text-align: center;
+	font-size: 0.7em;
 }
 
 footer h1,
 footer ul,
-footer a {
+footer a,
+footer p {
 	color: white;
 }
 
@@ -168,4 +171,14 @@ footer ul {
 
 footer ul {
 	margin: 20px auto;
+}
+
+footer i {
+	margin-right: 4px;
+}
+
+footer hr {
+	margin-bottom: 20px;
+	width: 40%;
+	border-bottom: 0.1px white solid;
 }
