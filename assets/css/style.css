@@ -23,7 +23,19 @@ h3 {
 
 header {
 	background-color: black;
+	padding: 20px 30px;
 }
+
+header div {
+	text-align: center;
+}
+
+.header__img {
+	width: 25vh;
+	height: 8vh;
+}
+
+/* NAV */
 
 /* MAIN */
 
