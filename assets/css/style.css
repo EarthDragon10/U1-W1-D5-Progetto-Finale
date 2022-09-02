@@ -58,7 +58,6 @@ header div {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	/* height: 10em; */
 }
 
 nav {
@@ -78,9 +77,6 @@ nav button {
 }
 
 /* MAIN */
-
-main {
-}
 
 /* ELEMENTI NEL MAIN - ARTICLE */
 
