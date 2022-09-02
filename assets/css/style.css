@@ -39,7 +39,7 @@ h3 {
 
 header {
 	background-color: black;
-	padding: 20px 30px;
+	padding: 25px 30px;
 }
 
 header div {
@@ -47,8 +47,8 @@ header div {
 }
 
 .header__img {
-	width: 25vh;
-	height: 8vh;
+	width: 20vh;
+	height: 6vh;
 }
 
 /* NAV */
