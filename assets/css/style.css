@@ -71,7 +71,27 @@ nav button {
 
 /* MAIN */
 
+main {
+	padding: 30px 20px;
+}
+
 /* ELEMENTI NEL MAIN - ARTICLE */
+
+article {
+	padding: 30px 20px;
+	text-align: center;
+}
+
+.article__div {
+	margin-bottom: 25px;
+}
+
+#article__img--rounded {
+	border-radius: 50%;
+	overflow: hidden;
+	width: 60vw;
+	margin-bottom: 20px;
+}
 
 /* ASIDE */
 
