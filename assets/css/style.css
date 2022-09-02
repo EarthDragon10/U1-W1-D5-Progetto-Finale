@@ -161,6 +161,12 @@ footer p {
 	color: white;
 }
 
+footer ul,
+footer a,
+footer p {
+	font-weight: 300;
+}
+
 footer ul {
 	list-style-type: none;
 }
@@ -176,5 +182,12 @@ footer i {
 footer hr {
 	margin-bottom: 20px;
 	width: 40%;
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
 	border-bottom: 0.1px white solid;
+}
+
+#footer__span--underline {
+	text-decoration: underline;
 }
