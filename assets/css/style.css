@@ -151,5 +151,21 @@ aside {
 /* FOOTER */
 
 footer {
+	padding: 30px 20px;
 	background-color: #25a2c3;
+	text-align: center;
+}
+
+footer h1,
+footer ul,
+footer a {
+	color: white;
+}
+
+footer ul {
+	list-style-type: none;
+}
+
+footer ul {
+	margin: 20px auto;
 }
